@@ -32,7 +32,7 @@
 ~~~
 
 ## 三、创建目录：webapp/WEB-INF、webapp/jsps
-**注意：一定要在main目录下**
+***注意：一定要在main目录下，与 /java 同级***
 ![](https://img2020.cnblogs.com/blog/1908772/202107/1908772-20210702222051355-1639968669.png)
 
 ## 四、修改步骤三中的目录结构
@@ -40,15 +40,16 @@
 
 ## 五、在核心配置文件中添加视图解析器的前缀和后缀
 
-**文件位置：src/main/resources/application.properties**
+***文件位置：src/main/resources/application.properties***
 
 ~~~properties
-spring.mvc.view.prefix=/jsps/
+spring.mvc.view.prefix=/jsps/ //设定视图解析器的前缀，这里的前缀根据你jsp文件的位置进行选择
 
-spring.mvc.view.suffix=.jsp
+spring.mvc.view.suffix=.jsp //设定视图解析器的后缀
 ~~~
 
 ## 六、创建JSP
+
 ![](https://img2020.cnblogs.com/blog/1908772/202107/1908772-20210702222711619-717927670.png)
 
 **文件位置：webapp/jsps/test.jsp**
@@ -86,7 +87,9 @@ import java.util.Date;
 @Controller
 @RequestMapping("/test")
 public class JavaServicePagesTest {
+    
     private static final String datePattern="yyyy-MM-dd E HH:mm:ss";
+    
     @RequestMapping("/m1.action")
     public String methodOne(HttpServletRequest request){
         request.setAttribute("time", new SimpleDateFormat(datePattern).format(new Date()));
@@ -102,3 +105,4 @@ public class JavaServicePagesTest {
 http://localhost:8080/text/m1.action
 ![](https://img2020.cnblogs.com/blog/1908772/202107/1908772-20210702222415034-422709856.png)
 
+**源码地址：https://github.com/byuan98/springboot-integration/tree/master/test001_springboot_jsp**
