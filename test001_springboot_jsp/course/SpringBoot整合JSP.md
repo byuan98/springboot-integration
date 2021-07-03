@@ -102,7 +102,7 @@ public class JavaServicePagesTest {
 ![](https://img2020.cnblogs.com/blog/1908772/202107/1908772-20210702222155077-473393612.png)
 
 ## 九、运行项目，打开浏览器输入URL
-http://localhost:8080/text/m1.action
+测试地址：http://localhost:8080/text/m1.action
 ![](https://img2020.cnblogs.com/blog/1908772/202107/1908772-20210702222415034-422709856.png)
 
 **源码地址：https://github.com/byuan98/springboot-integration/tree/master/test001_springboot_jsp**
