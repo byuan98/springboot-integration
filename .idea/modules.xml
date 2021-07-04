@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/test001_springboot_jsp/test001_springboot_jsp.iml" filepath="$PROJECT_DIR$/test001_springboot_jsp/test001_springboot_jsp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test002_springboot_servlet/test002_springboot_servlet.iml" filepath="$PROJECT_DIR$/test002_springboot_servlet/test002_springboot_servlet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test003_springboot_jdbc/test003_springboot_jdbc.iml" filepath="$PROJECT_DIR$/test003_springboot_jdbc/test003_springboot_jdbc.iml" />
     </modules>
   </component>
 </project>
