@@ -66,7 +66,8 @@ spring.datasource.password=root
 
 
 # 指定sql映射文件的位置
-#mybatis.mapper-locations=classpath:mappers/*.xml
+# 由于我们使用注解，因此这里写不写其实是无所谓的
+# mybatis.mapper-locations=classpath:mappers/*.xml
 
 
 # 为实体类起别名
@@ -134,6 +135,7 @@ public interface StudentDao {
     // Mapper仅在查询时使用，增、删、改均不使用
     // 在增删改上使用@Results会报错
     @Results(id = "studentMapper", value = {
+        //  @Result(是否为id(可选), 实体类属性名, 表中属性名, 实体类属性的属性类型)
             @Result(id = true, property ="studentId", column ="pk_student_id", javaType = Integer.class),
             @Result(property ="studentName", column = "student_name", javaType = String.class),
             @Result(property ="studentSex", column = "student_sex", javaType = String.class),
