@@ -16,6 +16,7 @@
     <groupId>mysql</groupId>
     <artifactId>mysql-connector-java</artifactId>
     <!-- 修改JDBC版本 -->
+    <!-- 我的MySQL版本为5.1，根据习惯在这里进行了修改，如果你的MySQL版本版本较高这里不要修改 -->
     <version>5.1.47</version>
     <scope>runtime</scope>
 </dependency>
