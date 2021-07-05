@@ -4,5 +4,6 @@
     <file url="file://$PROJECT_DIR$/test001_springboot_jsp/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/test002_springboot_servlet/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/test003_springboot_jdbc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test004_springboot_mybatis/src/main/java" charset="UTF-8" />
   </component>
 </project>
