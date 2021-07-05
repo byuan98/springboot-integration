@@ -69,7 +69,7 @@ spring.datasource.password=root
 
 
 # 为实体类起别名
-mybatis.type-aliases-package=cn.godfery.entity
+mybatis.type-aliases-package=cn.byuan.entity
 
 
 # 显示SQL语句
