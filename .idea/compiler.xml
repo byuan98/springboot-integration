@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="test002_springboot_servlet" />
         <module name="test004_springboot_mybatis" />
+        <module name="test005_springboot_mybatisplus" />
         <module name="test001_springboot_jsp" />
         <module name="test003_springboot_jdbc" />
       </profile>
@@ -18,6 +19,7 @@
       <module name="test002_springboot_servlet" target="1.8" />
       <module name="test003_springboot_jdbc" target="1.8" />
       <module name="test004_springboot_mybatis" target="1.8" />
+      <module name="test005_springboot_mybatisplus" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -26,6 +28,7 @@
       <module name="test002_springboot_servlet" options="-parameters" />
       <module name="test003_springboot_jdbc" options="-parameters" />
       <module name="test004_springboot_mybatis" options="-parameters" />
+      <module name="test005_springboot_mybatisplus" options="-parameters" />
     </option>
   </component>
 </project>
