@@ -21,7 +21,7 @@
 **选择Spring Web、JDBC API、MyBatis Framework、MySQL Driver**
 
 <img src="https://img2020.cnblogs.com/blog/1908772/202107/1908772-20210706173628705-813445010.png"  />
-<img src="https://img2020.cnblogs.com/blog/1908772/202107/1908772-20210706173631264-1026193586.png" style="zoom: 80%;" />
+<img src="https://img2020.cnblogs.com/blog/1908772/202107/1908772-20210706173631264-1026193586.png"  />
 <img src="https://img2020.cnblogs.com/blog/1908772/202107/1908772-20210706173633906-1427855884.png"  />
 <img src="https://img2020.cnblogs.com/blog/1908772/202107/1908772-20210706173636063-329687501.png"  />
 
