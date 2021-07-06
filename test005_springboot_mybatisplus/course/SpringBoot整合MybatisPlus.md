@@ -10,16 +10,20 @@
 
 **[实现分页](#p4)**
 
+**首先给出四部分完整的项目结构**
+
+<img src="https://img2020.cnblogs.com/blog/1908772/202107/1908772-20210706210935270-311810192.png" style="zoom: 80%;" />
+
 <h2 id="p1">一、实现基础的增删改查功能</h2>
 
 ### 1.创建项目、选择依赖
 
 **选择Spring Web、JDBC API、MyBatis Framework、MySQL Driver**
 
-![](https://img2020.cnblogs.com/blog/1908772/202107/1908772-20210706173628705-813445010.png)
-![](https://img2020.cnblogs.com/blog/1908772/202107/1908772-20210706173631264-1026193586.png)
-![](https://img2020.cnblogs.com/blog/1908772/202107/1908772-20210706173633906-1427855884.png)
-![](https://img2020.cnblogs.com/blog/1908772/202107/1908772-20210706173636063-329687501.png)
+<img src="https://img2020.cnblogs.com/blog/1908772/202107/1908772-20210706173628705-813445010.png"  />
+<img src="https://img2020.cnblogs.com/blog/1908772/202107/1908772-20210706173631264-1026193586.png" style="zoom: 80%;" />
+<img src="https://img2020.cnblogs.com/blog/1908772/202107/1908772-20210706173633906-1427855884.png"  />
+<img src="https://img2020.cnblogs.com/blog/1908772/202107/1908772-20210706173636063-329687501.png"  />
 
 ### 2.在pom文件中引入相关依赖
 
@@ -790,4 +794,4 @@ page.hasPrevious();// 是否存在上一页
 
 
 
-**源码地址：https://github.com/byuan98/springboot-integration/tree/master/test004_springboot_mybatisplus**
+**源码地址：https://github.com/byuan98/springboot-integration/tree/master/test005_springboot_mybatisplus**
