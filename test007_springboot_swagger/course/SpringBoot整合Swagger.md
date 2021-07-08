@@ -281,4 +281,5 @@ public class StudentAction {
 ![](https://img2020.cnblogs.com/blog/1908772/202107/1908772-20210708213209401-1814682540.png)
 ![](https://img2020.cnblogs.com/blog/1908772/202107/1908772-20210708213211921-1989981193.png)
 
-**源码地址：https://github.com/byuan98/springboot-integration/tree/master/test006_springboot_swagger**
+**源码地址：https://github.com/byuan98/springboot-integration/tree/master/test007_springboot_swagger**
+
