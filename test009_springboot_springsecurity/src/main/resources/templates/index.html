@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+</head>
+<body>
+    <div  align="center">
+        <h1>Welcome to index</h1>
+        <div>
+            <a th:href="@{/level_1/gotoHtml}">请求level_1</a>
+        </div>
+
+        <div>
+            <a th:href="@{/level_2/gotoHtml}">请求level_2</a>
+        </div>
+
+        <div>
+            <a th:href="@{/level_3/gotoHtml}">请求level_3</a>
+        </div>
+
+        <a th:href="@{/logout}">登出</a>
+
+    </div>
+
+</body>
+</html>

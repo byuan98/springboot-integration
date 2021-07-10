@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/test006_springboot_druid/pom.xml" />
         <option value="$PROJECT_DIR$/test007_springboot_swagger/pom.xml" />
         <option value="$PROJECT_DIR$/test008_springboot_mongodb/pom.xml" />
+        <option value="$PROJECT_DIR$/test009_springboot_springsecurity/pom.xml" />
       </list>
     </option>
   </component>

@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/test006_springboot_druid/test006_springboot_druid.iml" filepath="$PROJECT_DIR$/test006_springboot_druid/test006_springboot_druid.iml" />
       <module fileurl="file://$PROJECT_DIR$/test007_springboot_swagger/test007_springboot_swagger.iml" filepath="$PROJECT_DIR$/test007_springboot_swagger/test007_springboot_swagger.iml" />
       <module fileurl="file://$PROJECT_DIR$/test008_springboot_mongodb/test008_springboot_mongodb.iml" filepath="$PROJECT_DIR$/test008_springboot_mongodb/test008_springboot_mongodb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test009_springboot_springsecurity/test009_springboot_springsecurity.iml" filepath="$PROJECT_DIR$/test009_springboot_springsecurity/test009_springboot_springsecurity.iml" />
     </modules>
   </component>
 </project>

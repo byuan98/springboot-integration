@@ -12,6 +12,7 @@
         <module name="test008_springboot_mongodb" />
         <module name="test004_springboot_mybatis" />
         <module name="test007_springboot_swagger" />
+        <module name="test009_springboot_springsecurity" />
         <module name="test001_springboot_jsp" />
         <module name="test003_springboot_jdbc" />
         <module name="test006_springboot_druid" />
@@ -26,6 +27,7 @@
       <module name="test006_springboot_druid" target="1.8" />
       <module name="test007_springboot_swagger" target="1.8" />
       <module name="test008_springboot_mongodb" target="1.8" />
+      <module name="test009_springboot_springsecurity" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -38,6 +40,7 @@
       <module name="test006_springboot_druid" options="-parameters" />
       <module name="test007_springboot_swagger" options="-parameters" />
       <module name="test008_springboot_mongodb" options="-parameters" />
+      <module name="test009_springboot_springsecurity" options="-parameters" />
     </option>
   </component>
 </project>
