@@ -143,7 +143,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 }
 ~~~
 
-**光标移入花括号内，按下 ctrl + o **
+**光标移入花括号内，按下 ctrl + o**
 
 ![](https://img2020.cnblogs.com/blog/1908772/202107/1908772-20210710160446988-682878812.png)
 
