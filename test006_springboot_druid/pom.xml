@@ -35,10 +35,17 @@
         </dependency>
 
         <!-- 引入druid -->
+
+        <!-- 部分同学反应该依赖会出现druid后台管理页面无法启动的情况 -->
+        <!-- <dependency> -->
+        <!--     <groupId>com.alibaba</groupId> -->
+        <!--     <artifactId>druid</artifactId> -->
+        <!--     <version>1.0.20</version> -->
+        <!-- </dependency> -->
         <dependency>
             <groupId>com.alibaba</groupId>
-            <artifactId>druid</artifactId>
-            <version>1.0.20</version>
+            <artifactId>druid-spring-boot-starter</artifactId>
+            <version>1.1.17</version>
         </dependency>
 
         <!-- 引入log4j -->
